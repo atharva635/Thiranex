@@ -121,7 +121,7 @@ git commit -m "feat: initialize semantic HTML5 portfolio with WCAG accessibility
 git branch -M main
 
 # Link your local repository to the new GitHub remote
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/accessible-portfolio-html5.git
+git remote add origin https://github.com/atharva635/Thiranex.git
 
 # Push the code to the main branch
 git push -u origin main
@@ -136,7 +136,7 @@ To make your portfolio live so that teachers and interviewers can view it:
     *   **Branch**: `main` / `(root)`
 4. Click **Save**.
 5. Wait 1-2 minutes. GitHub will generate a live link at:
-    `https://YOUR_GITHUB_USERNAME.github.io/accessible-portfolio-html5/`
+    `https://atharva635.github.io/Thiranex/`
 
 ---
 
