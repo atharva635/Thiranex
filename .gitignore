@@ -1,0 +1,14 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS junk files
+Thumbs.db
+db.properties
+Desktop.ini
+.DS_Store
+.directory
+
+# Cache and logs
+*.log
+.eslintcache

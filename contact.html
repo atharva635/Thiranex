@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Contact Me | Atharva Gupta</title>
+  <meta name="description" content="Reach out to Atharva Gupta for inquiries, opportunities, or collaborations. Use the fully accessible, screen reader-friendly contact form.">
+  <meta name="keywords" content="Atharva Gupta, Contact, Reach Out, Email, LinkedIn, KIET, Web Developer Portfolio, Accessible Form">
+  <meta name="author" content="Atharva Gupta">
+  <meta name="robots" content="index, follow">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard/screen reader users -->
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+  <!-- Shared Header Section -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo" aria-label="Atharva Gupta Portfolio Home">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+          <defs>
+            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#06b6d4" />
+              <stop offset="100%" stop-color="#6366f1" />
+            </linearGradient>
+          </defs>
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+        </svg>
+        <span>Atharva<span class="logo-text">.G</span></span>
+      </a>
+
+      <!-- Hamburger mobile button -->
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Main site navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Switcher -->
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-theme" aria-label="Switch to light theme" title="Switch Theme">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+            <path d="M3 12h1M20 12h1M12 3v1M12 20v1M5.6 5.6l.7.7M17.7 17.7l.7.7M17.7 5.6l-.7.7M5.6 17.7l-.7.7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main landmark -->
+  <main id="main-content">
+    
+    <!-- Contact Title Section -->
+    <section class="contact-section" aria-labelledby="contact-title">
+      <h1 id="contact-title" class="section-title">Contact Me</h1>
+      <p class="section-desc">Have a question or want to work together? Drop me a message or connect via social networks.</p>
+
+      <!-- Layout Grid -->
+      <div class="contact-layout">
+        
+        <!-- Left: Details & Links -->
+        <div class="contact-info">
+          <h2 class="sr-only">Contact Details</h2>
+          <ul class="contact-info-list">
+            
+            <!-- Email -->
+            <li>
+              <div class="glass-card contact-info-card">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="contact-detail-title">Email</h3>
+                  <a href="mailto:atharva.gupta@email.com" class="contact-detail-value" aria-label="Send email to atharva.gupta@email.com">
+                    atharva.gupta@email.com
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- LinkedIn -->
+            <li>
+              <div class="glass-card contact-info-card">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></svg>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="contact-detail-title">LinkedIn</h3>
+                  <a href="https://linkedin.com/in/atharva-gupta" class="contact-detail-value" target="_blank" rel="noopener noreferrer" aria-label="Atharva Gupta's LinkedIn Profile (opens in new tab)">
+                    linkedin.com/in/atharva-gupta
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- GitHub -->
+            <li>
+              <div class="glass-card contact-info-card">
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="contact-detail-title">GitHub</h3>
+                  <a href="https://github.com/atharva635" class="contact-detail-value" target="_blank" rel="noopener noreferrer" aria-label="Atharva Gupta's GitHub Projects (opens in new tab)">
+                    github.com/atharva635
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- Right: Accessible Contact Form -->
+        <div class="form-container">
+          
+          <!-- Live announcement region for dynamic script messages -->
+          <div id="form-status-announcer" class="sr-only" aria-live="polite"></div>
+
+          <!-- Success Alert Card -->
+          <div id="form-success-message" class="glass-card form-success-box hidden" role="region" aria-label="Form success message">
+            <div class="success-icon-wrapper" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h2 class="success-title">Thank You!</h2>
+            <p>Your message has been submitted successfully. I will get back to you as soon as possible.</p>
+            <a href="index.html" class="btn btn-primary">Return to Homepage</a>
+          </div>
+
+          <!-- The Form -->
+          <form id="contact-form" class="glass-card contact-form-card contact-form" novalidate aria-label="Contact information form">
+            
+            <div class="form-group-full">
+              <p class="form-note" style="color: var(--text-secondary); margin-bottom: 0.5rem; font-size: 0.9rem;">
+                All fields are required.
+              </p>
+            </div>
+
+            <!-- Name Field -->
+            <div>
+              <label for="name">Full Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                required 
+                aria-required="true"
+                autocomplete="name"
+                placeholder="John Doe"
+              >
+            </div>
+
+            <!-- Email Field -->
+            <div>
+              <label for="email">Email Address</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required 
+                aria-required="true"
+                autocomplete="email"
+                placeholder="john@example.com"
+              >
+            </div>
+
+            <!-- Phone Field -->
+            <div>
+              <label for="phone">Phone Number</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                required 
+                aria-required="true"
+                autocomplete="tel"
+                placeholder="+91 99999 99999"
+              >
+            </div>
+
+            <!-- Subject Field -->
+            <div>
+              <label for="subject">Subject</label>
+              <input 
+                type="text" 
+                id="subject" 
+                name="subject" 
+                required 
+                aria-required="true"
+                placeholder="Collaboration opportunity"
+              >
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group-full">
+              <label for="message">Message</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="5" 
+                required 
+                aria-required="true"
+                placeholder="Hello, I would like to discuss..."
+              ></textarea>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-group-full" style="margin-top: 0.5rem;">
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer landmark -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <nav aria-label="Social Profiles">
+        <ul class="footer-socials">
+          <li>
+            <a href="https://github.com/atharva635" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Atharva Gupta's GitHub (opens in new tab)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/atharva-gupta" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Atharva Gupta's LinkedIn (opens in new tab)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></svg>
+              </a>
+          </li>
+          <li>
+            <a href="mailto:atharva.gupta@email.com" class="footer-social-link" aria-label="Email Atharva Gupta">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">&copy; 2026 Atharva Gupta. Built with Semantic HTML5 & perfect WCAG Guidelines.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
